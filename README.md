@@ -65,7 +65,7 @@ http://localhost:8000/actuator/health
 http://localhost:8000/actuator/health/liveness
 
 
-## autoscale
+## Autoscale
 kubectl autoscale deployment currency-exchange --min=1 --max=3 --cpu-percent=70
 
 It means that if the cpu is greater than 70%, a new pod will be created up to a maximum of 3
