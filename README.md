@@ -33,7 +33,7 @@ Yaml files include services, replicaset, configmap, etc
 ## List services:
 kubectl get services
 
-## List pod:
+## List pods:
 kubectl get pods
 
 ## List replicaset:
